@@ -66,15 +66,18 @@
   background-color : #2f80ed;
 }
 
+.description {
+  background-color:  #f2f2f2;
+  min-width: 784px;
+  min-height: 150px;
+  margin-top: 100px;
+}
+
 .two-columns {
-  margin: 100px;
   display: flex;
   justify-content: space-between;
-  min-width: 784px;
-  min-height: 700px;
-
-  
-
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .two-columns__brief {
@@ -91,8 +94,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-
-
 }
 
 .two-columns__paragraph {
@@ -107,9 +108,75 @@
   font-weight: 600;
 }
 
+.digits {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.digits__title {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  padding-bottom: 20px;
+  line-height: 1.15em;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.digits__subtitle {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.digits__table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  text-align: justify;
+  
+}
+
+.digits__table-cell {
+  width: 250px;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+  
+}
+
+.digits__table-heading {
+  line-height: 1.15em;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.digits__table-text {
+  line-height: 1.12em;
+  font-size: 18px;
+  font-weight: normal;
+}
+
 .table__cell_theme_dark {
   width : 200px;
   color : white;
   margin-right : 0;
   margin-top : 80px;
 }
+
+
