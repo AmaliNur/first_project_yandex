@@ -109,8 +109,7 @@
 }
 
 .digits {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 100px;  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -118,7 +117,7 @@
 }
 
 
-.digits__title {
+.section__title {
   display: flex;
   justify-content: center;
   width: 60%;
@@ -128,7 +127,7 @@
   font-weight: 600;
 }
 
-.digits__subtitle {
+.section__subtitle {
   display: flex;
   justify-content: center;
   width: 60%;
@@ -137,7 +136,7 @@
   font-weight: normal;
 }
 
-.digits__table {
+.section__table {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -150,27 +149,27 @@
   text-align: justify;
 }
 
-.digits__table-cell {
+.section__table-cell {
   width: 250px;
   margin-bottom: 60px;
   text-align: center;
 }
 
-.digits__table-heading {
+.section__table-heading {
   line-height: 1.15em;
   font-size: 24px;
   font-weight: 600;
   padding-bottom: 20px;
 }
 
-.digits__table-text {
+.section__table-text {
   line-height: 1.12em;
   font-size: 18px;
   font-weight: normal;
 }
 
-.digits__table-bank {
-  margin-top: 20px;
+.section__table-bank {
+  padding-top: 20px;
 }
 
 .feynman {
@@ -212,8 +211,6 @@
   right: 0;
   margin-right: 48px;
 }
-
-
 
 .table__cell_theme_dark {
   width : 200px;
