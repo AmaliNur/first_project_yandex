@@ -213,15 +213,31 @@
 }
 
 .kaufman {
+  display: flex;
+  flex-direction: column;
   background-color:#1f1f1f;
   overflow: hidden; 
   width: 100%;
+  position: relative;
   align-items: center;
+
+
 }
 
 .kaufman__triangle {
   position: absolute;
   right: -210px;
+  width: 887px;
+  height: 887px;
+  top: 0;
+  z-index: 0;
+}
+
+.table_theme_dark {
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 1;
+  padding-top: 80px;
 }
 
 .section__title_theme_dark {
@@ -230,36 +246,27 @@
   line-height: 1.15em;
   font-size: 60px;
   font-weight: 600;
-
-
 }
 
 .section__subtitle_theme_dark {
   color:white;
-  padding-top: 20px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-
-}
-
-.table_theme_dark {
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 90px;
 }
 
 .table__cell_theme_dark {
   width : 200px;
   color : white;
   margin-right : 0;
-  margin-top : 80px;
+  padding-bottom: 80px;
 }
 
 .table__heading_theme_dark {
   line-height: 1.15em;
   font-size: 24px;
   font-weight: 600;
+  text-align: justify;
 }
 
 .table__text_theme_dark {
@@ -267,6 +274,7 @@
   font-size: 18px;
   font-weight: normal;
   padding-top: 20px;
+  text-align: start;
 }
 
 
