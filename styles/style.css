@@ -10,14 +10,6 @@
   font-family : 'Helvetica Neue', Arial, sans-serif;
   }
 
-.header {
-  position: relative;
-  height : 100vh;
-  min-height : 600px;
-  max-height : 756px;
-  display : flex;
-  background-color:  #f2f2f2;
-}
 
 .logo_place_header {
   position : absolute;
@@ -25,49 +17,7 @@
   margin-left : 64px;
   z-index: 2;
   }
-  
-.header__title {
-  display : flex;
-  width : 730px;
-  line-height: 96px;
-  padding-left : 64px;
-  justify-content : flex-start;
-  align-self : center;
-  font-size: 102px;
-  font-weight: 600;
-}
-
-.header__subtitle {
-  position : absolute;
-  width : 388px;
-  margin-left : 64px;
-  justify-content : end;
-  bottom : 30px;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.header__link {
-  color: #2f80ed;
-}
-  
-.header__main-illustration {
-  position : absolute;
-  right : 0;
-  bottom : 0;
-
-}
-
-.header__square-pic {
-  position : absolute;
-  height : 568px;
-  width : 568px;
-  margin-top : 64px;
-  right : 0;
-  background-color : #2f80ed;
-}
-
+    
 .description {
   background-color:  white;
   min-width: 784px;
