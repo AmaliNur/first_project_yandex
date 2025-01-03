@@ -9,31 +9,7 @@
   margin : 0 auto;
   font-family : 'Helvetica Neue', Arial, sans-serif;
   }
-
-
-.logo_place_header {
-  position : absolute;
-  margin-top : 30px;
-  margin-left : 64px;
-  z-index: 2;
-  }
     
-.description {
-  background-color:  white;
-  min-width: 784px;
-  min-height: 150px;
-  
-}
-
-.two-columns {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .two-columns__brief {
   width:175px; 
   line-height: 1.2em;
